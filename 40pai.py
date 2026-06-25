@@ -1,17 +1,7 @@
-print("โปแกรมคำนวณคะแนนแต่ละวิชา \n ")
-mathematics= int(input("คะแนนวิชาคณิตศาสตร์") )
-science= int(input("คะแนนวิชาวิทยาศาสตร์") )
-thai= int(input("คะแนนวิชาภาษาไทย") )
-total_point = (science + mathematics + thai)
-averge = total_point /3
-if averge <60:
-    print("ดีเยี่ยม")
-elif averge <80:
-    print("ดีมาก")
-elif averge <40:
-    print("ผ่าน")
-print("by pai 4/4" )
-print("thank you")
+print = ("คำนวณค่าBMIและแแปลสุขภาพ")
+input =  int ("นํ้าหนักและส่วนสูง")
+input =  int  ("BMI<18.5")("นํ้าหนักน้อย")
+input =  int (18.5-22.9) ("นํ้าหนักปกติ")
+input = (23-24.9) ("นั้าหนักเกินกว่าเกณฑ์") ("อ้วน")
 
-     
-   
+input = int (19.23) ("อยู่ในเกณฑ์ปกติ")

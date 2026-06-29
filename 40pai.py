@@ -1,7 +1,9 @@
-print = ("คำนวณค่าBMIและแแปลสุขภาพ")
-input =  int ("นํ้าหนักและส่วนสูง")
-input =  int  ("BMI<18.5")("นํ้าหนักน้อย")
-input =  int (18.5-22.9) ("นํ้าหนักปกติ")
-input = (23-24.9) ("นั้าหนักเกินกว่าเกณฑ์") ("อ้วน")
+print("โปรแกรมคำนวณ  Bmi และแปลสุขภาพ\n")
+hight = float(input("ส่วนสูงของคุณ m."))
+wieght = int(input("นํ้าหนักของคุณ kg."))
 
-input = int (19.23) ("อยู่ในเกณฑ์ปกติ")
+total = (hight * hight)
+Bmi = (wieght/total)
+print("Bmi ของคุณคือ , Bmi , หน่วย")
+if Bmi > 19 :
+ print("อยู่ในเกณฑ์ปกติ\n")

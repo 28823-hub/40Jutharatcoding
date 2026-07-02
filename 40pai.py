@@ -1,9 +1,26 @@
-print("โปรแกรมคำนวณ  Bmi และแปลสุขภาพ\n")
-hight = float(input("ส่วนสูงของคุณ m."))
-wieght = int(input("นํ้าหนักของคุณ kg."))
+import random
+secret_number = random.randint(1,100)
+count = 0
+while True:
 
-total = (hight * hight)
-Bmi = (wieght/total)
-print("Bmi ของคุณคือ , Bmi , หน่วย")
-if Bmi > 19 :
- print("อยู่ในเกณฑ์ปกติ\n")
+    guess = int(input("ทายตัวเลขของคุณ"))
+    count += 1
+
+    if guess > secret_number:
+
+        print("มากไป ลองใหม่อีกครั้ง")
+
+    elif guess < secret_number:
+
+        print("น้อยไป ลองใหม่อีกครั้ง")
+    else:
+
+
+        print(f"ถูกต้อง คุณทาย  {count} ครั้ง" )
+
+        break
+
+
+
+
+    

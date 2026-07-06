@@ -1,26 +1,6 @@
-import random
-secret_number = random.randint(1,100)
-count = 0
-while True:
+print("โปแกรมสูตรคูณ \n")
+number = int(input("เลขของคุณ: "))
+for i in range (1,13):
+    print(number,"x",i,"= ",number*i)
 
-    guess = int(input("ทายตัวเลขของคุณ"))
-    count += 1
-
-    if guess > secret_number:
-
-        print("มากไป ลองใหม่อีกครั้ง")
-
-    elif guess < secret_number:
-
-        print("น้อยไป ลองใหม่อีกครั้ง")
-    else:
-
-
-        print(f"ถูกต้อง คุณทาย  {count} ครั้ง" )
-
-        break
-
-
-
-
-    
+print("by pai 4/4 40")
